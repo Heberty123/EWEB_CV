@@ -1,0 +1,244 @@
+.container{
+    width: 70vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*   First Column   */
+
+.d-Perfil{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(160, 178, 218);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.boxPerfil{
+    width: 100%;
+    height: 30%;
+}
+
+.perfil{
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.personal-information{
+    width: 100%;
+    height: 50%;
+}
+
+.title{
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle1{
+    font-size: 1rem;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.subtitle2{
+    font-size: 1rem;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.subtitle3{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.box-objetivo{
+    padding-left: 10px;
+}
+
+.title-objetivo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.text-objetivo{
+}
+
+.separator{
+    width: 95%;
+    height: 2px;
+    background-color: rgb(26, 25, 25);
+    opacity: 0.4;
+    margin: 10px auto;
+}
+
+.title-contacts{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.contacts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+
+
+.phone{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
+.phone::before{
+    display: flex;
+    content: "";
+    background-image: url("img/phone.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+
+}
+
+.email{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
+.email::before{
+    display: flex;
+    content: "";
+    background-image: url("img/email.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.linkedin{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
+.linkedin::before{
+    display: flex;
+    content: "";
+    background-image: url("img/linkedin.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.github{
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
+.github::before{
+    display: flex;
+    content: "";
+    background-image: url("img/github.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-perfil{
+    width: 100%;
+    height: 20%;
+
+}
+
+
+/*   Second column   */
+
+.moreAbout{
+    width: 65%;
+    height: 100%;
+    background-image: url("img/background7.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.title-name{
+    text-align: center;
+    color: rgb(53, 52, 52);
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 15px;
+}
+
+.formations{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title-formation{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+}
+
+.title-box-formation{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.course::before{
+    content: "Curso: ";
+    font-weight: 700;
+}
+
+.strong-course{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.entity-pro::before{
+    content: "Entidade Promotora: ";
+    font-weight: 700;
+}
+
+.title-imp-course{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 25px 0px 15px 0px;
+}
+
+.improvement-course{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.course-ap{
+    padding-bottom: 25px;
+}
+
+.title-course-ap{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
